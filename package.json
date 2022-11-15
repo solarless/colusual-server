@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "colusual-server",
+  "scripts": {
+    "build": "tsc",
+    "serve": "tsc -i && node ./dist/Main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
+  }
+}
