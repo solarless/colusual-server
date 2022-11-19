@@ -24,4 +24,8 @@ export class Role {
     public getPermissions(): Array<RolePermission> {
         return this.permissions;
     }
+
+    public addPermission(permission: RolePermission): void {
+        this.permissions.push(permission);
+    }
 }
