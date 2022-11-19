@@ -19,4 +19,8 @@ export class Room {
     public getMessages(): Array<Message> {
         return this.messages;
     }
+
+    public publishMessage(message: Message): void {
+        this.messages.push(message);
+    }
 }
